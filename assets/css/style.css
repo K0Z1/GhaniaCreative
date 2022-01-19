@@ -29,7 +29,8 @@
 .maintance .btn-contact:hover{
 		--tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 		box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-		background-color: #ff6c4c;
+		background-color: #30526a;
+		transition: 0.5s ease;
 }        
 @media(min-width: 425px){
 		.maintance .title-text{
