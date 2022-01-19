@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.maintance{
+		padding: 4rem 2rem 4rem;
+}
+.maintance .main-img{
+		object-fit: contain;
+		object-position: center;
+		margin-bottom: 3rem;
+		width: 75%;
+}
+.maintance .title-text{
+		color: #272E35;
+		font: 600 1.875rem/2.25rem Poppins, sans-serif;            
+		margin-bottom: 1.25rem;
+}
+.maintance .title-caption{
+		color: #9C9C9C;
+		margin-bottom: 4rem;
+		letter-spacing: 0.025em;
+		line-height: 1.75rem;
+}
+.maintance .btn-contact{
+		background-color: #f6836b;
+		font: 600 1.125rem/1.75rem Poppins, sans-serif;            
+		padding: 1rem 1.5rem;
+		border-radius: 0.75rem;
+}
+.maintance .btn-contact:hover{
+		--tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+		box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+		background-color: #ff6c4c;
+}        
+@media(min-width: 425px){
+		.maintance .title-text{
+				font-size: 40px;
+		}
+}
+@media (min-width: 576px) {            
+		.maintance{
+				padding-top: 5rem;
+		}
+		.maintance .main-img{
+				margin-bottom: 4rem;
+				width: auto;
+		}            
+}  
